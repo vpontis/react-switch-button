@@ -26,7 +26,7 @@ const blocks = mix.inProduction() ? [ 'develblock' ] : null;
 
 mix
   .less( "less/react-switch-button.less", "dist" )
-  .react( "src/react-switch-button.jsx", "dist" );
+  .react( "src/react-switch-button.js", "dist" );
 
 mix
   .less( "example/src/app.less", "example/dist" )

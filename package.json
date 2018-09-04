@@ -32,7 +32,7 @@
     "react-dom": "~16.2.0",
     "webpack-strip-blocks": "^1.0.0"
   },
-  "browser": "src/react-switch-button.jsx",
+  "browser": "src/react-switch-button.js",
   "browserify": {
     "transform": [
       "babelify"
